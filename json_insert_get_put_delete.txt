@@ -1,0 +1,47 @@
+//INSERT JSON (POST)
+
+{
+    "name": "teste",
+    "contacts": [
+        {
+            "contact_type_id": 1,
+            "number": "1999821372184"
+        },
+        {
+            "contact_type_id": 2,
+            "number": "199982423424432"
+        },
+        {
+            "contact_type_id": 3,
+            "email": "a@a.com"
+        }
+    ]
+}
+
+//UPDATE JSON (PUT)
+
+{
+    "name": "teste",
+    "contacts": [
+        {
+            "id": 1,
+            "contact_type_id": 1,
+            "number": "update1"
+        },
+        {
+            "id": 2,
+            "contact_type_id": 2,
+            "number": "update2"
+        },
+        {
+            "id": 3,
+            "contact_type_id": 3,
+            "email": "a@a.com2"
+        }
+    ]
+}
+
+GET: http://127.0.0.1:8000/api/people/1
+POST: http://127.0.0.1:8000/api/people/1
+PUT: http://127.0.0.1:8000/api/people/1
+DELETE: http://127.0.0.1:8000/api/people/1
