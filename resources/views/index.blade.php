@@ -68,7 +68,7 @@
                     people: ''
                 },
                 mounted () {
-                    axios.get('http://127.0.0.1:8000/api/people').then(response => (this.people = response.data))
+                    axios.get('httpS://https://paguii-bravi.herokuapp.com/api/people').then(response => (this.people = response.data))
                 }
             });
         </script>
