@@ -68,7 +68,7 @@
                     people: ''
                 },
                 mounted () {
-                    axios.get('httpS://https://paguii-bravi.herokuapp.com/api/people').then(response => (this.people = response.data))
+                    axios.get('https://paguii-bravi.herokuapp.com/api/people').then(response => (this.people = response.data))
                 }
             });
         </script>
