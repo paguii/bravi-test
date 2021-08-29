@@ -16,6 +16,8 @@ POST
 https://paguii-bravi.herokuapp.com/api/people
 
 Exemplo de JSON
+
+```json
 {
     "name": "teste",
     "contacts": [
@@ -33,12 +35,14 @@ Exemplo de JSON
         }
     ]
 }
+```
 
 Atualizar
 PUT
 https://paguii-bravi.herokuapp.com/api/people/{id}
 
 Exemplo de JSON
+```json
 {
     "name": "teste",
     "contacts": [
@@ -59,6 +63,7 @@ Exemplo de JSON
         }
     ]
 }
+```
 
 Deletar
 DELETE
