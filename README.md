@@ -69,3 +69,6 @@ Deletar
 DELETE
 https://paguii-bravi.herokuapp.com/api/people/{id}
 
+Exercicio 3
+
+Fiz uma simples apresentação dos dados utilizando o css Materialize e Vue.js.
