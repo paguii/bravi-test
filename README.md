@@ -71,4 +71,5 @@ https://paguii-bravi.herokuapp.com/api/people/{id}
 
 Exercicio 3
 
-Fiz uma simples apresentação dos dados utilizando o css Materialize e Vue.js.
+Fiz uma simples apresentação dos dados utilizando o css Materialize e Vue.js que pode ser visto nessa URL:
+ https://paguii-bravi.herokuapp.com
