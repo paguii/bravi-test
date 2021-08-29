@@ -31,7 +31,7 @@
             </div>
 
             <div id="table" class="row">
-                <div class="col s6 m6 push-s3 push-m3">
+                <div class="col s12 m6 push-m3">
                     <table class="highlight">
                         <caption></caption>
                         <thead>
